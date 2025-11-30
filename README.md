@@ -41,7 +41,7 @@ Each TA reads the rubric. For all 5 rubric entries, it does the following:
 - Saves the updated rubric back to rubric.txt
 
 
-Then the TA marks 5 questions in each exam. TAs select an unmarked question from shared memory. The program prints before/after each read/write. Marking takes 1.0–2.0 s. In this part, multiple TAs may mark the same question due to race conditions.
+Then the TA marks 5 questions in each exam. TAs select an unmarked question from shared memory. The program prints before/after each read/write. Marking takes 1.0–2.0 s. In this part, multiple TAs may mark the same question.
 
 When all questions are marked, one TA loads the next exam file into shared memory. THe program prints all shared-memory writes. If the student number is 9999, sets terminate = 1 and all TAs stop.
 
