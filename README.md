@@ -46,3 +46,13 @@ Then the TA marks 5 questions in each exam. TAs select an unmarked question from
 When all questions are marked, one TA loads the next exam file into shared memory. THe program prints all shared-memory writes. If the student number is 9999, sets terminate = 1 and all TAs stop.
 
 It is expected in Part 2a that there are many simultaneous rubric reads/writes, lots of overlapping question markings, and several TAs may attempt to load the next exam. This is all due to race conditions, which are allowed in Part 2a.
+
+## Resetting the rubric.txt file
+**After running each test case, manually reset the rubric file to its original state:**
+```
+1, A
+2, B
+3, C
+4, D
+5, E
+```
