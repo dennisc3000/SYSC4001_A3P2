@@ -3,8 +3,8 @@
 ## Requirements
 Linux
 
-## Part 2A
-This program simulates multiple TA marking exams concurrently using Unix processes, shared memory, and file I/O. Part 2A doesn't use semaphores. Race conditions are allowed and expected for Part 2A.
+## Part 2a
+This program simulates multiple TA marking exams concurrently using Unix processes, shared memory, and file I/O. Part 2a doesn't use semaphores. Race conditions are allowed and expected for Part 2a.
 
 Compile with gcc:
 ```
