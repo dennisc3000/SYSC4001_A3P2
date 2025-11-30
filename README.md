@@ -22,3 +22,20 @@ Ex.
 ./part2a 4
 ```
 This starts 4 concurrent TA processes.
+
+## Usage
+On startup, the rubric and the first exam file are loaded into shared memory. All TA processes use only shared memory (not the files directly).
+
+Each TA repeatedly reads the rubric. For all 5 rubric entries, it does the following:
+
+- Sleeps 0.5–1.0 s
+
+- Prints before/after each shared-memory read
+
+- Randomly decides whether to correct the rubric
+
+- If correcting, increments the rubric’s character (A -> B, C -> D, etc.)
+
+- Prints before/after each shared-memory write
+
+- Saves the updated rubric back to rubric.txt
