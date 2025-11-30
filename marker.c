@@ -33,11 +33,11 @@ typedef struct {
 
 // Each file should contain a 4-digit student number, e.g. "0001".
 static const char *exam_files[] = {
-    "exam01.txt", "exam02.txt", "exam03.txt", "exam04.txt",
-    "exam05.txt", "exam06.txt", "exam07.txt", "exam08.txt",
-    "exam09.txt", "exam10.txt", "exam11.txt", "exam12.txt",
-    "exam13.txt", "exam14.txt", "exam15.txt", "exam16.txt",
-    "exam17.txt", "exam18.txt", "exam19.txt", "exam20.txt"
+    "exam_files/exam01.txt", "exam_files/exam02.txt", "exam_files/exam03.txt", "exam_files/exam04.txt",
+    "exam_files/exam05.txt", "exam_files/exam06.txt", "exam_files/exam07.txt", "exam_files/exam08.txt",
+    "exam_files/exam09.txt", "exam_files/exam10.txt", "exam_files/exam11.txt", "exam_files/exam12.txt",
+    "exam_files/exam13.txt", "exam_files/exam14.txt", "exam_files/exam15.txt", "exam_files/exam16.txt",
+    "exam_files/exam17.txt", "exam_files/exam18.txt", "exam_files/exam19.txt", "exam_files/exam20.txt"
 };
 static const int num_exams = sizeof(exam_files) / sizeof(exam_files[0]);
 static const char *rubric_filename = "rubric.txt";
@@ -407,3 +407,4 @@ int main(int argc, char *argv[]) {
 
     return EXIT_SUCCESS;
 }
+
