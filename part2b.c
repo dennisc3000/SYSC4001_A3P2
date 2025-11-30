@@ -2,6 +2,9 @@
 // Forked processes (TAs), SysV shared memory, SysV semaphores
 // All shared memory reads/writes are logged. Based on Part 2a logic
 
+// Dennis Chen student#101236818
+// Mithushan Ravichandramohan student#101262467
+
 #define _XOPEN_SOURCE 700
 
 #include <stdio.h>
@@ -363,3 +366,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
