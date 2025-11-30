@@ -1,4 +1,7 @@
 // Part 2a) (no semaphores)
+// Dennis Chen student#101236818
+// Mithushan Ravichandramohan student#101262467
+
 
 #define _XOPEN_SOURCE 700
 
@@ -407,4 +410,5 @@ int main(int argc, char *argv[]) {
 
     return EXIT_SUCCESS;
 }
+
 
