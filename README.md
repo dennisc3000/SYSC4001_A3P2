@@ -1,9 +1,11 @@
 # SYSC4001_A3P2
 Lab section L3
 
-Dennis Chen student#101236818
+Dennis Chen 
+student#: 101236818
 
-Mithushan Ravichandramohan student#101262467
+Mithushan Ravichandramohan 
+student#: 101262467
 
 
 ## Requirements
