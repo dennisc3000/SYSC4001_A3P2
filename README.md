@@ -12,7 +12,7 @@ student#: 101262467
 Linux
 
 ## Usage
-This program simulates multiple TA marking exams concurrently using Unix processes, shared memory, and file I/O. Part 2a doesn't use semaphores. Race conditions are allowed and expected for Part 2a.
+This is a C program that simulates multiple TA marking exams concurrently using Unix processes, shared memory, and file I/O. Part 2a doesn't use semaphores. Race conditions are allowed and expected for Part 2a.
 
 Compile with gcc:
 ```
